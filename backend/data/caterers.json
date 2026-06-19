@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1781843729276,
+    "name": "Dwarka",
+    "location": "Dombivli",
+    "pricePerPlate": 450,
+    "cuisines": ["All"],
+    "rating": 5
+  },
+  {
+    "id": 1781843883271,
+    "name": "Tree",
+    "location": "Vikhroli",
+    "pricePerPlate": 1000,
+    "cuisines": ["Indian", "Continental"],
+    "rating": 5
+  }
+]
