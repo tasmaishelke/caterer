@@ -33,7 +33,7 @@ export default function CreateCaterer() {
     };
 
     try {
-      await axios.post("http://localhost:5000/api/caterers", payload);
+      await axios.post("/api/caterers", payload);
 
       alert("Caterer created successfully");
 

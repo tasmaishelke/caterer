@@ -11,7 +11,7 @@ export default function Caterers() {
 
   const fetchCaterers = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/api/caterers");
+      const res = await axios.get("/api/caterers");
 
       setCaterers(res.data);
     } catch (err) {

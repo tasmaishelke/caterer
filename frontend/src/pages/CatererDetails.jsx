@@ -13,7 +13,7 @@ export default function CatererDetails() {
 
   const fetchCaterer = async () => {
     try {
-      const res = await axios.get(`http://localhost:5000/api/caterers/${id}`);
+      const res = await axios.get(`/api/caterers/${id}`);
 
       setCaterer(res.data);
     } catch (err) {
